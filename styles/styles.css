@@ -1,6 +1,5 @@
 body {
   background-color: #1F3061;
-  color: white;
 }
 
 .flexbox-container {
@@ -12,8 +11,21 @@ body {
   height: 100vh;
 }
 
+.flexbox-item {
+  border: 3px solid black;
+}
+
 .image-container {
   display: contents;
+  flex: 1;
+}
+
+.content-container {
+  flex: 1;
+}
+
+.anchor-container {
+  flex: 1;
 }
 
 img {
@@ -21,13 +33,10 @@ img {
   max-width: 1000px;
 }
 
-.flexbox-item {
-  padding: 100 px;
-  border: 3px solid black;
-}
-
 p, a {
   width: 60vw;
   max-width: 600px;
   text-align: center;
+  color: white;
+  margin-top: 10%;
 }

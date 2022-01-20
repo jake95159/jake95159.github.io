@@ -1,5 +1,8 @@
 body {
   background-color: #1F3061;
+  font-family: open-sans,sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .flexbox-container {
@@ -12,25 +15,18 @@ body {
 }
 
 .flexbox-item {
-  border: 3px solid black;
+  flex: 1;
+  text-align: center;
 }
 
 .image-container {
   display: contents;
-  flex: 1;
-}
-
-.content-container {
-  flex: 1;
-}
-
-.anchor-container {
-  flex: 1;
 }
 
 img {
   width: 80vw;
   max-width: 1000px;
+  margin-top: 50px;
 }
 
 p, a {

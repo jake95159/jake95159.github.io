@@ -23,16 +23,40 @@ body {
   display: contents;
 }
 
-img {
+.ilmarinen-logo {
   width: 80vw;
   max-width: 1000px;
   margin-top: 50px;
 }
 
-p, a {
+.linkedin-logo {
+  display: inline;
+  height: 1.5em;
+  position: relative;
+  top: .25em;
+  padding-right: 1em;
+}
+
+h1 {
+  display: inline;
+  font-size: 1em;
+}
+
+p {
   width: 60vw;
   max-width: 600px;
   text-align: center;
-  color: white;
   margin-top: 10%;
+  color: white;
 }
+
+a {
+  margin-top: 10%;
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  
+}
+

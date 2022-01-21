@@ -1,5 +1,6 @@
 body {
-  background-color: #1F3061;
+  /*background-color: #1F3061;*/
+  background-image: linear-gradient(35deg, #111a35, #314992);
   font-family: open-sans,sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -24,7 +25,7 @@ body {
 }
 
 .ilmarinen-logo {
-  width: 80vw;
+  width: 90vw;
   max-width: 1000px;
   margin-top: 50px;
 }
@@ -33,7 +34,7 @@ body {
   display: inline;
   height: 1.5em;
   position: relative;
-  top: .25em;
+  top: .35em;
   padding-right: 1em;
 }
 
@@ -43,20 +44,28 @@ h1 {
 }
 
 p {
-  width: 60vw;
+  width: 80vw;
   max-width: 600px;
   text-align: center;
   margin-top: 10%;
-  color: white;
+  color: rgb(216, 216, 216);
+  margin-bottom: 10%;
 }
 
 a {
-  margin-top: 10%;
   color: white;
   text-decoration: none;
 }
 
-a:hover {
-  
+.button {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #32498d;
+  transition: .2s;
+}
+
+.button:hover {
+  background-color: #1d2c55;
 }
 

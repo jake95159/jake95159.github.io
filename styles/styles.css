@@ -25,8 +25,8 @@ body {
 }
 
 .ilmarinen-logo {
-  width: 90vw;
-  max-width: 1000px;
+  width: 70vw;
+  max-width: 400px;
   margin-top: 50px;
 }
 
@@ -36,6 +36,12 @@ body {
   position: relative;
   top: .35em;
   padding-right: 1em;
+}
+
+.valiant-logo {
+  width: 70vw;
+  max-width: 400px;
+  margin-top: 50px;
 }
 
 h1 {

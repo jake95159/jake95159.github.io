@@ -41,7 +41,7 @@ body {
 .valiant-logo {
   width: 70vw;
   max-width: 400px;
-  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 h1 {
@@ -49,13 +49,18 @@ h1 {
   font-size: 1em;
 }
 
-p {
+.content-container {
   width: 80vw;
   max-width: 600px;
   text-align: center;
   margin-top: 10%;
   color: rgb(216, 216, 216);
   margin-bottom: 10%;
+}
+
+p {
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 a {
